@@ -17,7 +17,7 @@ Categorical Data Analysis Using Python
 13. df['Grade'].value_counts()-It returns the frequency (count) of each unique category in the 'Grade' column.
 14. df['Gender'].value_counts()-It returns the frequency (count) of each unique category in the 'Gender' column.Similarly we can calculate for other columns like department.
 15. df['Grade'].value_counts(normalize=True)*100-It returns the percentage distribution of each category in the 'Grade' column.
-16. pd.crosstab(df['Gender'],df['Grade'])-It creates a contingency table showing the frequency of each combination of Gender and Grade.Similarly, 'Department' vs 'Gender' and 'Department' and 'Grade' can be implemented.
+16. pd.crosstab(df['Gender'],df['Grade'])-It creates a contingency table showing the frequency of each combination of Gender and Grade.Similarly, 'Department' vs 'Gender' and 'Department' vs 'Grade' can be calculated.
 17. pd.crosstab(df['Department'],df['Grade'],normalize='index')*100)-It shows the row-wise percentage distribution of Grade within each Department.
 18. df.groupby('Department')['Grade'].value_counts()-It returns the count of each Grade within each Department (group-wise frequency).
 19. pd.DataFrame(data)-It creates a DataFrame from the given data using the pandas library.
