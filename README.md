@@ -30,4 +30,4 @@ Categorical Data Analysis Using Python
 26. df.sort_values(by='Category')-It sorts the DataFrame in ascending order based on the 'Category' column.
 27. df.groupby('Category')['Payment_Method'].value_counts()-It returns the count of each Payment Method within each Category (group-wise frequency). 
 # Conclusion
-Categorical data analysis using Python helps in understanding and interpreting qualitative data efficiently. With libraries like pandas and matplotlib, we can easily perform frequency analysis, comparisons, visualization, and statistical testing. It is widely useful in data analysis, decision-making, and machine learning for extracting meaningful insights from categorical variables.
+Categorical data analysis using python helps in understanding and interpreting qualitative data efficiently. With libraries like pandas and matplotlib, we can easily perform frequency analysis, comparisons, visualization, and statistical testing. It is widely useful in data analysis, decision-making, and machine learning for extracting meaningful insights from categorical variables.
