@@ -23,4 +23,7 @@ Categorical Data Analysis Using Python
 19. df['Category'].value_counts()-It returns the frequency (count) of each unique category in the 'Category' column.In similar way unique payment methods can be calculated.
 20. df['Category'].value_counts(normalize=True)*100-It returns the percentage distribution of each category in the 'Category' column.
 21. df['Category'].unique()-It returns all unique values (distinct categories) present in the 'Category' column.
-22. 
+22. df['Category'].nunique()-It returns the number of unique (distinct) categories in the 'Category' column.
+23. pd.crosstab(df['Category'],df['Payment_Method'])-It creates a contingency table showing the frequency of each combination of Category and Payment Method.
+24. df[df['Category']=='Electronics']-It filters the DataFrame and returns rows where the Category is 'Electronics'.
+25. 
