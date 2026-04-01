@@ -4,7 +4,7 @@ Categorical Data Analysis Using Python
 # Theory
 1. Categorical data analysis is the study of data that represents categories or groups. In Python, it is performed using libraries like pandas and numpy to calculate frequencies, visualize data, and analyze relationships. It is widely used in surveys, business analysis, and machine learning.
 2. import pandas- This line imports the pandas library.Pandas is used for data handling and analysis.
-3. pd.read_csv("/content/Expt11.csv")-It reads the CSV file from the given path and stores it as a DataFrame in Python.
+3. pd.read_csv("/content/Expt11.csv")-It reads the CSV file from the given path and stores it as a dataFrame in Python.
 4. df.shape- It returns the dimensions of the dataframe in the form of (rows,columns).
 5. df.size- It returns the total number of elements (values) in the DataFrame.(size=rows*columns).
 6. df.info() is a function used to get a summary of a dataframe.It gives quick information about the structure of the dataset.It gives number of entries (rows), column names, non-null values, data types and memory usage.
